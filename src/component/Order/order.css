@@ -1,0 +1,9 @@
+ul{
+    display: inline;
+    
+}
+li{
+    display: inline-block;
+    padding: 16px 32px;
+   
+}
