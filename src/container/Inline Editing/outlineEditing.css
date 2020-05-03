@@ -1,0 +1,38 @@
+.inline-text_copy--active{
+  color: white;
+}
+.inline-text_input--active {
+  font: inherit;
+  color:white;
+  opacity: 0.8;
+  text-align: inherit;
+  padding: 0;
+  
+  border: none;
+  
+  outline: none;
+}
+
+.inline-text_copy--active {
+  cursor: pointer;
+}
+
+.inline-text_copy--hidden,
+.inline-text_input--hidden {
+  display: none;
+  border: 1px solid white;
+  
+ 
+  
+}
+
+.inline-text input{
+  background-color: #121212;
+  border:2px solid #2A2438;
+
+}
+.inline-text textarea{
+  background-color: inherit;
+  border:1px solid white;
+ text-align: left; 
+}

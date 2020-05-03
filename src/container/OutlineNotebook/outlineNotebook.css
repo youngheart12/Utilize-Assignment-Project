@@ -1,0 +1,45 @@
+.childWrapper{
+    margin: 0px 0px 32px;
+    padding: 64px 32px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.parentWrapper.jumbotron{
+    background-color: #121212;
+    color:white;
+    padding: 0px;
+    margin: 0px;
+  
+}
+.review{
+   margin: 15px;
+    font-size: 1.1rem;
+    color:#FF7597;
+}
+#deleteButton{
+    cursor: pointer;
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+#deleteButton:hover{
+    color:red
+}
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }

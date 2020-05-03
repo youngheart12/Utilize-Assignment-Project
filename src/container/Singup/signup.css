@@ -1,0 +1,49 @@
+.parentModel{
+    background-color: #0A184A;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+.singupModel{
+    color: white;
+}
+.singupModel textarea{
+    background-color: #1C2956;
+    border:none;
+    width: 100%;
+    color: white;
+    padding:8px;
+}
+.signupform input{
+    background-color: #1C2956;
+    border:none;
+    color: white;
+    width: 100%;
+    margin:5px 0px;
+    padding: 8px;
+    color: white;
+}
+label{
+    margin-top: 10px;
+}
+.parentModel nav{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: inherit;
+}
+.parentModel nav a{
+    color: white;
+}
+.loginbutton{
+  
+    background: #7F7FD5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4128C2, #6F34F7, #6F34F7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4128C2, #4128C2, #6F34F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    border:none;   
+    padding:8px 12px;
+}

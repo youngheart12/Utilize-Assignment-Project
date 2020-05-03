@@ -1,0 +1,51 @@
+.inline-text_copy--active,
+.inline-text_input--active {
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  padding: 0;
+  background: none;
+  border: none;
+ 
+  outline: none;
+}
+
+.socailLink{
+    display: flex;
+    flex-direction: row;
+}
+.profileParent{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Segoe UI';
+}
+
+.inline-text_copy--active {
+  cursor: pointer;
+}
+
+.inline-text_copy--hidden,
+.inline-text_input--hidden {
+  display: none;
+}
+
+.inline-text_input--active {
+  border-bottom: 1px solid #666666;
+  text-align: left;
+}
+
+
+  .profile.jumbotron{
+      background-color: #121212;
+      color: white;
+      border:5px solid red;
+      border-right-color: red;
+      border-left-color: yellow;
+      border-top-color: orange;
+      border-bottom-color: tomato;
+      
+  }
+  
+  
+    
+  

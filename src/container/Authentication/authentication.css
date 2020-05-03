@@ -1,0 +1,33 @@
+
+nav {
+    background-color: #352f44;
+    padding: 15px;
+}
+nav a{
+    padding: 15px;
+    color: #c4bbf0;
+    text-decoration: none;
+    
+}
+nav a h5{
+    display: inline;
+    float: left;
+}
+nav h4{
+    color:white;
+    float: left;
+    padding: 0px;
+    margin:0px;
+}
+nav{
+    text-align: right;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: white;
+   
+}
+
+nav a:active{
+    color: white;
+}

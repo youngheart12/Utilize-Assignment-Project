@@ -1,0 +1,19 @@
+.bookStyle{
+    color: white;
+    background-image: url('../../image/booksd.JPG');
+    background-size: cover;
+    background-position: left;
+}
+.movieStyle{
+    color: white;
+    background-image: url('../../image/movie.JPG');
+    background-size: cover;
+    background-position: left;
+    
+}
+.dishStyle{
+    color: white;
+    background-image: url('../../image/fooddd.JPG');
+    background-size: cover;
+    background-position: left;
+}

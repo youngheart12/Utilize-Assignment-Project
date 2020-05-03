@@ -1,0 +1,45 @@
+
+.dashboardParentWrapper{
+ margin-left: 15%;
+ margin-right: 15%;
+ 
+}
+.dashboardParentWrapper .btn{
+margin-right: 5px;
+margin-top: 5px;
+}
+#openCreatorContent{
+    color:white;
+    transition: color 0.1s ease-out;
+}
+#openCreatorContent:hover{
+    color:#B481ED;
+    cursor: pointer;
+    
+}
+.dashboardChildWrapper.jumbotron{
+    background-color: #121212;
+    color:white;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.dashboardChildInsideWrapper{
+    margin: 0px 0px 32px;
+    padding: 64px 32px;
+}
+
+.plusButton{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    text-align: center;
+}
+.plusButton:hover{
+    color:tomato;
+    cursor: pointer;
+}
+#share-buttons img 
+{ width: 35px; padding: 5px; border: 0; box-shadow: 0; display: inline; }
